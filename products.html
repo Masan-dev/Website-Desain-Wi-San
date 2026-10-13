@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Paket internet WI-San.">
+    <title>Produk — WI-San</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Bree+Serif&family=Great+Vibes&family=Lora:wght@400;500&family=Nunito+Sans:wght@800;900&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- No JavaScript -->
+    <noscript>
+        <style>
+            .pt {
+                display: none;
+            }
+            [data-r] {
+                opacity: 1;
+                transform: none;
+            }
+        </style>
+    </noscript>
+</head>
+<body>
+    <!-- ==================== PRELOADER ==================== -->
+    <div class="pt" aria-hidden="true">
+        <img data-img="logo" alt="">
+    </div>
+    <div class="progress"></div>
+    <!-- ==================== HEADER ==================== -->
+    <header class="site-header">
+        <!-- Brand -->
+        <a class="brand" href="index.html" aria-label="WI-San beranda">
+            <img data-img="logo" alt="">
+            WI-SAN
+        </a>
+        <!-- Mobile Menu Button -->
+        <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+            <span></span>
+        </button>
+        <!-- Navigation -->
+        <div class="menu">
+            <nav class="nav">
+                <a href="index.html#statistik">
+                    Statistik
+                </a>
+                <a href="products.html" class="active">
+                    Product
+                </a>
+                <a href="index.html#testimoni">
+                    Testimoni
+                </a>
+                <a href="about.html">
+                    Tentang
+                </a>
+            </nav>
+            <!-- Navigation Side -->
+            <div class="nav-side">
+                <a href="contact.html">
+                    Community
+                </a>
+                <a class="join" href="get-started.html">
+                    Join Us
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- ==================== MAIN ==================== -->
+    <main>
+        <!-- ==================== PAGE HERO ==================== -->
+        <section class="page-hero">
+            <p class="eyebrow" data-r="up">
+                Our Product
+            </p>
+            <h1 data-r="up">
+                Paket yang dibuat
+                <br>
+                untuk kebutuhanmu.
+            </h1>
+            <p data-r="up" style="--i:1">
+                Pilih jenis paket di bawah, lalu klik produk mana saja untuk mengisi data dan memesan.
+            </p>
+        </section>
+        <!-- ==================== PRODUCTS ==================== -->
+        <section class="sec wrap">
+            <div data-catalog>
+            <div class="filters" role="group" aria-label="Pilih jenis produk"></div>
+            <div class="toolbar">
+                <span class="count-info" aria-live="polite"></span>
+                <select class="sort" aria-label="Urutkan produk">
+                    <option value="awal">Urutan awal</option>
+                    <option value="murah">Harga termurah</option>
+                    <option value="mahal">Harga termahal</option>
+                    <option value="cepat">Paling cepat</option>
+                </select>
+            </div>
+            <div class="pgrid"></div>
+        </div>
+        </section>
+    </main>
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="f-top">
+            <!-- Footer Brand -->
+            <div>
+                <a class="brand" href="index.html">
+                    <img data-img="logo" alt="">
+                    WI-SAN
+                </a>
+                <p>
+                    Informasi lainya dari kami (WI-SAN)
+                    dan juga link untuk mendapatkan informasi
+                    lebih lanjut
+                </p>
+                <!-- Social Media -->
+                <div class="social">
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" aria-label="X">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Footer Navigation -->
+            <div class="f-col">
+                <h4>
+                    Company &amp; Service
+                </h4>
+                <a href="about.html">
+                    About Us
+                </a>
+                <a href="contact.html">
+                    FAQ
+                </a>
+                <a href="contact.html">
+                    Contacts Us
+                </a>
+                <a href="products.html">
+                    internet
+                </a>
+                <a href="contact.html">
+                    Network Help
+                </a>
+            </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="f-bot">
+            <img data-img="logo" alt="">
+            © 2026 WI-San. All rights reserved.
+        </div>
+    </footer>
+    <!-- ==================== SCRIPTS ==================== -->
+    <script src="assets/js/images.js"></script>
+    <script src="assets/js/products.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

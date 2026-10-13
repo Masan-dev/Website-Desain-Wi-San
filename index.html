@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="WI-San: internet cepat, aman, dan stabil dengan harga murah.">
+    <title>WI-San — Internet Yang Cepat</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Bree+Serif&family=Great+Vibes&family=Lora:wght@400;500&family=Nunito+Sans:wght@800;900&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <noscript>
+        <style>
+            .pt {
+                display: none;
+            }
+            [data-r] {
+                opacity: 1;
+                transform: none;
+            }
+        </style>
+    </noscript>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="pt" aria-hidden="true">
+        <img data-img="logo" alt="">
+    </div>
+    <div class="progress"></div>
+    <!-- ==================== HEADER ==================== -->
+    <header class="site-header">
+        <!-- Brand -->
+        <a class="brand" href="index.html" aria-label="WI-San beranda">
+            <img data-img="logo" alt="">
+            WI-SAN
+        </a>
+        <!-- Mobile Menu Button -->
+        <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+            <span></span>
+        </button>
+        <!-- Navigation -->
+        <div class="menu">
+            <nav class="nav">
+                <a href="index.html#statistik">
+                    Statistik
+                </a>
+                <a href="products.html">
+                    Product
+                </a>
+                <a href="index.html#testimoni">
+                    Testimoni
+                </a>
+                <a href="about.html">
+                    Tentang
+                </a>
+            </nav>
+            <!-- Navigation Side -->
+            <div class="nav-side">
+                <a href="contact.html">
+                    Community
+                </a>
+                <a class="join" href="get-started.html">
+                    Join Us
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- ==================== MAIN ==================== -->
+    <main>
+        <!-- ==================== HERO ==================== -->
+        <section class="hero" id="home">
+            <svg class="star s1" viewBox="0 0 100 100">
+                <path d="M50 4C54 32 68 46 96 50 68 56 56 68 50 96 44 68 32 56 4 50 32 46 46 32 50 4z" transform="rotate(20 50 50)" />
+            </svg>
+            <svg class="star s2" viewBox="0 0 100 100">
+                <path d="M50 4C54 32 68 46 96 50 68 56 56 68 50 96 44 68 32 56 4 50 32 46 46 32 50 4z" transform="rotate(20 50 50)" />
+            </svg>
+            <!-- Hero Content -->
+            <div class="hero-copy">
+                <h1 data-r="up">
+                    Internet Yang Cepat,
+                    <br>
+                    Secepat WI-San
+                </h1>
+                <div class="btns" data-r="up" style="--i:2">
+                    <a class="pill p-dark" href="get-started.html">
+                        Start
+                        <svg viewBox="0 0 24 24">
+                            <path d="M3 3l19 9-19 9 4-9z" />
+                        </svg>
+                    </a>
+                    <a class="pill p-lime" href="#produk">
+                        Explore
+                        <svg viewBox="0 0 24 24">
+                            <path d="M3 3l19 9-19 9 4-9z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="hero-sub" data-r="up" style="--i:3">
+                    <div class="dots2">
+                        <i></i>
+                        <i></i>
+                    </div>
+                    <p>
+                        Hemat Uang Anda dengan membeli layanan kami
+                        yang pastinya Murah Tapi internet kencang
+                    </p>
+                </div>
+            </div>
+            <!-- Partners -->
+            <div class="partners" data-r="up" style="--i:4">
+                <b>Telkomsel</b>
+                <span>
+                    <b>IndiHome</b>
+                    <small>by Telkomsel</small>
+                </span>
+            </div>
+            <!-- Earth -->
+            <img class="earth" data-img="earth" src="assets/image/earth.png" alt="Bumi" fetchpriority="high">
+        </section>
+        <!-- ==================== SECURITY ==================== -->
+        <section class="sec security wrap" id="keamanan">
+            <h2 class="h-lime" data-r="up">
+                Mengatur Keamanan Dan
+                <br>
+                Jaringan dengan kompleks!
+            </h2>
+            <p class="sub" data-r="up" style="--i:1">
+                Mengatur Stabilitas Jaringan,
+                Mengatur Keamanan Jaringan,
+                mengatur infrastuktur server
+            </p>
+            <img data-img="security" alt="Ilustrasi keamanan jaringan: server, perisai, dan gembok" data-r="zoom">
+        </section>
+        <!-- ==================== PRODUCTS ==================== -->
+        <section class="sec products" id="produk">
+            <div class="bigtitle" data-r="left" aria-hidden="true">
+                Produk Kami
+            </div>
+            <div class="panel" data-r="up">
+                <p class="eyebrow">
+                    Our Product
+                </p>
+                <h2>
+                    Anda Tertarik Dan Ingin jaringan anda Aman?
+                </h2>
+                <p class="try">
+                    Coba Produk Kami
+                </p>
+                <!-- Product Carousel -->
+                <div id="pcar">
+                    <div class="viewport">
+                        <div class="track"></div>
+                    </div>
+                </div>
+
+                <div class="view-all">
+                    <a class="pill p-dark" href="products.html">Lihat Semua Produk <svg viewBox="0 0 24 24"><path d="M3 3l19 9-19 9 4-9z" /></svg></a>
+                </div>
+
+                <!-- Carousel Controls -->
+                <div class="ctrl">
+                    <button class="arrow prev" aria-label="Produk sebelumnya">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M20 12H4M10 6l-6 6 6 6" />
+                        </svg>
+                    </button>
+                    <button class="arrow next" aria-label="Produk berikutnya">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M4 12h16M14 6l6 6-6 6" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="dotsrow"></div>
+            </div>
+        </section>
+        <!-- ==================== STATISTICS ==================== -->
+        <section class="sec stats wrap" id="statistik">
+            <p class="eyebrow center on-dark" data-r="up">
+                Statistik
+            </p>
+            <h2 class="h-lime" style="text-align:center" data-r="up">
+                Statistik Kestabilan Jaringan
+                <br>
+                Yang Anda akan dapat.
+            </h2>
+            <!-- Device Dashboard -->
+            <div class="devices" data-r="zoom">
+                <img data-img="stats" alt="Dashboard statistik kestabilan jaringan WI-San di monitor dan laptop">
+            </div>
+            <!-- KPI -->
+            <div class="kpis" data-stagger>
+                <div class="kpi">
+                    <b data-count="99.98" data-suffix="%">
+                        0%
+                    </b>
+                    <span>
+                        Uptime jaringan
+                    </span>
+                </div>
+                <div class="kpi">
+                    <b data-count="14" data-suffix=" ms">
+                        0 ms
+                    </b>
+                    <span>
+                        Rata-rata latensi
+                    </span>
+                </div>
+                <div class="kpi">
+                    <b data-count="2500" data-suffix="+">
+                        0
+                    </b>
+                    <span>
+                        Pelanggan aktif
+                    </span>
+                </div>
+                <div class="kpi">
+                    <b data-count="1" data-suffix=" Gbps">
+                        0
+                    </b>
+                    <span>
+                        Kecepatan puncak
+                    </span>
+                </div>
+            </div>
+            <!-- Live Monitoring -->
+            <div class="live" id="live" data-r="up">
+                <div class="live-h">
+                    <span>
+                        <i></i>
+                        Pemantauan langsung stabilitas
+                    </span>
+                    <span>
+                        Stabilitas:
+                        <b id="lNow">99.00%</b>
+                        ·
+                        Ping:
+                        <b id="lPing">12 ms</b>
+                    </span>
+                </div>
+                <svg viewBox="0 0 600 200" role="img" aria-label="Grafik stabilitas jaringan langsung">
+                    <defs>
+                        <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0" stop-color="#cbf473" stop-opacity=".4" />
+                            <stop offset="1" stop-color="#cbf473" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                    <g class="grid">
+                        <line x1="0" x2="600" y1="30" y2="30" />
+                        <line x1="0" x2="600" y1="80" y2="80" />
+                        <line x1="0" x2="600" y1="130" y2="130" />
+                        <line x1="0" x2="600" y1="180" y2="180" />
+                    </g>
+                    <path id="lArea"></path>
+                    <path id="lLine"></path>
+                </svg>
+            </div>
+            <div class="script" data-r="up">
+                Pastinya Aman
+            </div>
+            <p class="statcopy" data-r="up">
+                Statistik Stabil dan tidak perlu lagi untuk khawatir
+                soal jaringan, karena Kami Benar Mengawasi Keamanan
+                Dan kestabilan internet yang anda pakai
+            </p>
+            <a class="cta" href="get-started.html" data-r="zoom">
+                Get Started
+                <svg viewBox="0 0 24 24">
+                    <path d="M4 12h16M14 6l6 6-6 6" />
+                </svg>
+            </a>
+        </section>
+        <!-- ==================== TESTIMONIALS ==================== -->
+        <section class="sec testi wrap" id="testimoni">
+            <p class="eyebrow center on-dark" data-r="up">
+                Testimoni
+            </p>
+            <h2 class="h-lime" style="text-align:center" data-r="up">
+                Cerita Nyata dari seorang
+                <br>
+                pengguna Wi-San
+            </h2>
+            <div class="tgrid fade" id="tbox">
+                <div>
+                    <div class="more">
+                        <span class="st" id="tmore"></span>
+                        Beberapa Pesan Lainnya
+                    </div>
+                    <p class="quote" id="tq"></p>
+                    <div class="count" id="tc"></div>
+                </div>
+                <div class="person">
+                    <div class="pic">
+                        <img id="ti" data-img="t1" alt="">
+                    </div>
+                    <strong id="tn"></strong>
+                    <span id="tr"></span>
+                </div>
+            </div>
+            <!-- Testimonial Controls -->
+            <div class="tctrl">
+                <button class="arrow light" id="tprev" aria-label="Testimoni sebelumnya">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20 12H4M10 6l-6 6 6 6" />
+                    </svg>
+                </button>
+                <button class="arrow light" id="tnext" aria-label="Testimoni berikutnya">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M4 12h16M14 6l6 6-6 6" />
+                    </svg>
+                </button>
+            </div>
+            <div class="dotsrow lt" id="tdots"></div>
+        </section>
+    </main>
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="f-top">
+            <!-- Footer Brand -->
+            <div>
+                <a class="brand" href="index.html">
+                    <img data-img="logo" alt="">
+                    WI-SAN
+                </a>
+                <p>
+                    Informasi lainya dari kami (WI-SAN)
+                    dan juga link untuk mendapatkan informasi
+                    lebih lanjut
+                </p>
+                <!-- Social Media -->
+                <div class="social">
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" aria-label="X">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Footer Navigation -->
+            <div class="f-col">
+                <h4>
+                    Company &amp; Service
+                </h4>
+                <a href="about.html">
+                    About Us
+                </a>
+                <a href="contact.html">
+                    FAQ
+                </a>
+                <a href="contact.html">
+                    Contacts Us
+                </a>
+                <a href="products.html">
+                    internet
+                </a>
+                <a href="contact.html">
+                    Network Help
+                </a>
+            </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="f-bot">
+            <img data-img="logo" alt="">
+            © 2026 WI-San. All rights reserved.
+        </div>
+    </footer>
+    <!-- ==================== SCRIPTS ==================== -->
+    <script src="assets/js/images.js"></script>
+    <script src="assets/js/products.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
